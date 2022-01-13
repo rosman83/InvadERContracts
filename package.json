@@ -1,3 +1,7 @@
 {
-  "name": "invadercontracts"
+  "name": "invadercontracts",
+  "dependencies": {},
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.4.2"
+  }
 }

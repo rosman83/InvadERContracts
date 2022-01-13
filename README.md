@@ -7,8 +7,14 @@
 This repository contains the core smart contracts for the InvaderERC collection - powering the cleanest most feature filled contracts for all non fungible token related purposes.
 
 ## Features
+> Remove these as needed...
+- Free Marketplace Listings
+- Free Future Contract Interaction
+- Burn Mechanic & Airdrop
+- Emergency Supply Change
+- EIP712 Protocol Support
 
-To be completed.
+
 
 ## Local deployment
 
