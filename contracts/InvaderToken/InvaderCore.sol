@@ -13,9 +13,16 @@ import "./base/ERC721A.sol";                          // ERC721
 **/ 
 
 contract InvaderCore is Ownable, ERC721A {
-  uint256 public immutable maxPerAddress;
-  uint256 public immutable reservedTokens;
-  uint256 public immutable burnedTokens;
+  uint256 public burnedTokens;
 
-  constructor() ERC721A("InvaderCore", "INVCORE", maxPerAddress) { }
+  struct SaleConfig {
+    uint256 tokenMax;
+    uint256 tokenCap;
+    uint256 tokenBatch;
+    uint256 tokenReserve;
+  }
+
+  SaleConfig public config = SaleConfig;
+
+  constructor() ERC721A("InvaderCore", "INVCORE", config.tokenBatch) {}
 }

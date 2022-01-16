@@ -1,6 +1,8 @@
 {
   "name": "invadercontracts",
-  "dependencies": {},
+  "dependencies": {
+    "prettier": "^2.5.1"
+  },
   "devDependencies": {
     "@openzeppelin/contracts": "^4.4.2"
   }
