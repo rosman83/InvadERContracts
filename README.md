@@ -1,5 +1,4 @@
 # InvadERContracts 
-### By [@TheInvader](https://twitter.com/invadereth) 🛸.
 
 [![Lint](https://github.com/rosman83/InvadERContracts/actions/workflows/lint.yml/badge.svg)](https://github.com/rosman83/InvadERContracts/actions/workflows/lint.yml)
 
